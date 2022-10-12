@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.quotes.R
@@ -14,6 +15,7 @@ class ItemAdapter(private val context: Context, private val quoteList: List<Quot
     class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         val textViewQuote : TextView = view.findViewById(R.id.item_title_quote)
         val textViewAuthor: TextView = view.findViewById(R.id.item_title_author)
+        val imageView : ImageView = view.findViewById(R.id.item_image)
     }
 
     //  Create new views
@@ -29,6 +31,7 @@ class ItemAdapter(private val context: Context, private val quoteList: List<Quot
         val item = quoteList[position]
         holder.textViewQuote.text = context.resources.getString(item.QuoteResourceId)
         holder.textViewAuthor.text = context.resources.getString(item.authorResourceId)
+        holder.imageView.setImageResource(item.imageResourceId)
     }
 
     override fun getItemCount() = quoteList.size

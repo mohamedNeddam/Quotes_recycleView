@@ -1,3 +1,8 @@
 package com.example.quotes.model
 
-data class Quote(val QuoteResourceId : Int,val authorResourceId : Int)
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
+data class Quote(@StringRes val QuoteResourceId : Int,
+                 @StringRes val authorResourceId : Int,
+                 @DrawableRes val imageResourceId : Int)
