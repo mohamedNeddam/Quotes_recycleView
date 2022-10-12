@@ -10,4 +10,16 @@
     <string name="quote8">Truth can only be found in one place: the code.</string>
     <string name="quote9">I am committed to push my branch to the master</string>
     <string name="quote10">Testing can only prove the presence of bugs, not their absence.</string>
+
+    <string name="author1">undefined</string>
+    <string name="author2">undefined</string>
+    <string name="author3">undefined</string>
+    <string name="author4">undefined</string>
+    <string name="author5">undefined</string>
+    <string name="author6">undefined</string>
+    <string name="author7">undefined</string>
+    <string name="author8">undefined</string>
+    <string name="author9">undefined</string>
+    <string name="author10">undefined</string>
+
 </resources>
