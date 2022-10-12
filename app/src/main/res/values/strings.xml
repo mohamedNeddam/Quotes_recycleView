@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quotes</string>
+    <string name="quote1">Simplicity is the soul of efficiency.</string>
+    <string name="quote2">Make it work, make it right, make it fast.</string>
+    <string name="quote3">Fix the cause, not the symptom.</string>
+    <string name="quote4">First, solve the problem. Then, write the code.</string>
+    <string name="quote5">Testing leads to failure, and failure leads to understanding.</string>
+    <string name="quote6">Don\'t write better error messages, write code that doesn\'t need them.</string>
+    <string name="quote7">Programming isn\'t about what you know; it\'s about what you can figure out.</string>
+    <string name="quote8">Truth can only be found in one place: the code.</string>
+    <string name="quote9">I am committed to push my branch to the master</string>
+    <string name="quote10">Testing can only prove the presence of bugs, not their absence.</string>
+</resources>
